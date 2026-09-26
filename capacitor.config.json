@@ -1,5 +1,9 @@
 {
-  "appId": "com.ratnawat.riva",
+  "appId": "com.riva.app",
   "appName": "RIVA",
-  "webDir": "www"
+  "webDir": "www",
+  "server": {
+    "url": "https://seller-app-t6wu.onrender.com",
+    "cleartext": true
+  }
 }

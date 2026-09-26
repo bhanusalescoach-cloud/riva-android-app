@@ -25,12 +25,12 @@ jobs:
       - name: Install Dependencies
         run: |
           npm install
-          npm install @capacitor/android@latest
+          npm install @capacitor/cli @capacitor/core @capacitor/android
 
       - name: Sync Capacitor
         run: |
-          npx cap copy
-          npx cap sync
+          npx @capacitor/cli copy
+          npx @capacitor/cli sync
 
       - name: Build Android APK
         run: |

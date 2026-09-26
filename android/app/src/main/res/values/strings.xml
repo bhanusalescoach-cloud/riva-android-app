@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">RIVA</string>
+    <string name="title_activity_main">RIVA</string>
+    <string name="package_name">com.ratnawat.riva</string>
+    <string name="custom_url_scheme">com.ratnawat.riva</string>
+</resources>
